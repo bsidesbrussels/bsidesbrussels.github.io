@@ -2747,3 +2747,25 @@ input:required {
         margin-right: 3px; }
 
 /*# sourceMappingURL=style.css.map */
+
+/*
+Sticky footer fix
+https://css-tricks.com/couple-takes-sticky-footer/
+*/
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+  background-color: #000000;
+}
+
+.footer-area {
+  flex-shrink: 0;
+}
