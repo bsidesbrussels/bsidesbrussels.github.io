@@ -2769,3 +2769,9 @@ body {
 .footer-area {
   flex-shrink: 0;
 }
+/*
+The sticky footer impacted the aboutus page background colour
+*/
+.what-we-offer-area {
+	background-color: white !important;
+}
